@@ -1,0 +1,12 @@
+[programs.localnet]
+auction = "4h3i7ER3q3pE5LSAedStJaYUcCKd3oXWBKPf3iUWsgGS"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "http://127.0.0.1:8899"
+wallet = "/Users/fayd/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
