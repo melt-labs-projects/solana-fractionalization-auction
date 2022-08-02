@@ -1,0 +1,12 @@
+[programs.localnet]
+price_tracker = "D8K3mcxvwDE7ykDPhL6xGXfkWXhbB1YS2nH3MCS1WmsD"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/fayd/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
